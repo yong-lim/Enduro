@@ -12,23 +12,23 @@ function postEnduroMarch23(e) {
   e.preventDefault();
 
   console.log("in postEnduroMarch23");
+  console.log("Team:");
+  console.log(e.target['team'].value);
   
-  // const POST_URL = 'https://script.google.com/macros/s/AKfycbwQ_wdqOBA_Z-29b9s2BZ7GHB3bGhlVzRL2hNwKdp-KoTQ5vhQ5bxz8uinBuKwvKDzP/exec'
-  // const postRequest = {
-  //   name: e.target['name-field'].value,
-  //   phone: e.target['phone-field'].value,
-  //   email: e.target['email-field'].value,
-  //   body: e.target['body-field'].value
-  // };
-  
-  const POST_URL = ''
+  const POST_URL = 'https://script.google.com/macros/s/AKfycbw8dXqyJYlhqy7z403yd8GmIzQz2Y__yyzRSZ_47JgJJOj36rxODMxydLWxBuqPFHab/exec'
   const postRequest = {
-    date   : e.target['date'].value,
-    nights : e.target['nights'].value,
-    name   : e.target['name'].value,
-    email  : e.target['email'].value,
-    phone  : e.target['phone'].value,
-    message: e.target['message'].value,
+    team       : e.target['team'].value,
+    name1      : e.target['name1'].value,
+    name2      : e.target['name2'].value,
+    phone1     : e.target['phone1'].value,
+    phone2     : e.target['phone2'].value,
+    emergency1 : e.target['emergency1'].value,
+    emergency2 : e.target['emergency2'].value,
+    selected   : e.target['selected'].value,
+    koth1      : e.target['koth1'].value,
+    koth2      : e.target['koth2'].value,
+    enduro1    : e.target['enduro1'].value,
+    enduro2    : e.target['enduro2'].value,
   };
 
   if(POST_URL) {
