@@ -18,6 +18,6 @@ By signing this Form, you agree that:
 5. That you agree to hold the CMSF, Local Authorities and the Organizer harmless against all claims of damage to body and or property.
 6. That the CMSF, Local Authorities and Organizer maintains the right to refuse participation to any racer if they foresee that participation would risk damage to any party.
 
-**For under 18 please pay by the parent**
+**For age under 18 please pay by the parent**
 
 ![](assets/img/QR-code.gif){: class="responsive-img"}
