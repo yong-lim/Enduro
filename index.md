@@ -9,7 +9,7 @@ Please be informed: Participation in the March 18, 2023 King of the Hill and
 March 19, 2023 Enduro Challenge can involve risk of injury, serious injury or
 death, property damage, and other dangers associated with outdoor activities and motor racing.
 
-By signing this Form, you agree that:
+By paying for this race, you agree that:
 
 1. That your participation in the races as mentioned above are by your own choice.
 2. That you understand and accept the risk involved in participating in the above-mentioned races.
@@ -18,6 +18,6 @@ By signing this Form, you agree that:
 5. That you agree to hold the CMSF, Local Authorities and the Organizer harmless against all claims of damage to body and or property.
 6. That the CMSF, Local Authorities and Organizer maintains the right to refuse participation to any racer if they foresee that participation would risk damage to any party.
 
-**For age under 18 please pay by the parent**
+**For racers under the age of 18 please pay by the parent.**
 
 ![](assets/img/QR-code.gif){: class="responsive-img"}
