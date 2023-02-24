@@ -1,7 +1,6 @@
 .container {
-    width: 50%;
+    width: 70%;
 }
-
 
 #map {
     height: 50vh;
@@ -35,7 +34,6 @@
 }
 
 .navbar {
-
     padding: 25px 0;
     margin-bottom: 20px;
     width: auto;
