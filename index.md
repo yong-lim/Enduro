@@ -5,8 +5,8 @@ layout: base
 #### Racer acknowledgment / Waiver
 ##### Your payment for this race is your consent electronic signature.
 
-Please be informed: Participation in the February 19, 2022 King of the Hill and
-February 20, 2022 Enduro Challenge can involve risk of injury, serious injury or
+Please be informed: Participation in the March 18, 2023 King of the Hill and
+March 19, 2023 Enduro Challenge can involve risk of injury, serious injury or
 death, property damage, and other dangers associated with outdoor activities and motor racing.
 
 By signing this Form, you agree that:
