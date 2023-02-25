@@ -1,3 +1,28 @@
+fees: |
+  ##### 2023 Registration Fee
+  
+  |Class      | Trial Masters | Hill Climb*                 | Enduro| 
+  |-----------|---------------|-----------------------------|-------| 
+  |Pro        | Free          | Free if registed for Enduro | $35.00| 
+  |Novice     | Free          | Free if registed for Enduro | $35.00| 
+  |Master     | Free          | Free if registed for Enduro | $35.00| 
+  |LEC        | Free          | Free if registed for Enduro | $35.00| 
+  |Kids       | Free          | Free if registed for Enduro | $20.00| 
+  |PW E       |      NA       |            NA               | $0.00 | 
+
+  __*Hill Climb is $20 for racers that DO NOT register for Enduro race__
+
+        
+  ##### Enduro Race fee includs: 
+  1. Race entry for Enduro and Hill Climb      
+  2. T-shirt Enduro race       
+  3. Food      
+  4. Insurance Enduro race       
+  5. Water for Enduro race
+
+  ##### Hill Climb Race Fee Includes:
+  1. Race entry Hill Climb
+
 racer1:
   - icon  : "account_circle"
     id    : "name1"
