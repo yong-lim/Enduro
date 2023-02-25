@@ -1,5 +1,10 @@
 ---
 title: Enduro March 2023
+
+form_title    : Registration Form
+race_location : Kirirom, Kingdom of Cambodia
+race_dates    : March 18, 2023 King of the Hill - March 19, 2023 Enduro Challenge
+
 timezone: Asai/Phnom_Penh
 markdown: kramdown
 highlighter: rouge
