@@ -14,6 +14,8 @@ function postEnduroMarch23(e) {
   console.log("in postEnduroMarch23");
   console.log("Team:");
   console.log(e.target['team'].value);
+  console.log("hill1:");
+  console.log(e.target['hill1'].value);
   
   const POST_URL = 'https://script.google.com/macros/s/AKfycbw8dXqyJYlhqy7z403yd8GmIzQz2Y__yyzRSZ_47JgJJOj36rxODMxydLWxBuqPFHab/exec'
   const postRequest = {
@@ -29,6 +31,8 @@ function postEnduroMarch23(e) {
     koth2      : e.target['koth2'].value,
     enduro1    : e.target['enduro1'].value,
     enduro2    : e.target['enduro2'].value,
+    hill1      : e.target['hill1'].value,
+    hill2      : e.target['hill2'].value,
   };
 
   if(POST_URL) {
