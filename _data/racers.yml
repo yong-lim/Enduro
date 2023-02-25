@@ -56,3 +56,12 @@ racer2:
   - icon  : "directions_bike"
     id    : "enduro2"
     label : "Enduro bike type:"
+
+classes:
+  - name : Class A (Pro Racer) 
+  - name : Class B (Semi-Pro Racer)  
+  - name : Class C (Novice racer)  
+  - name : Class M (Masters 40Y up)  
+  - name : Class LEC (Ladies)  
+  - name : Class D (Kids)  
+  - name : Trial Masters (Trial Bike Only)
