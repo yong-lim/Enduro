@@ -13,7 +13,7 @@
       <div class="col s6">
         <div class="input-field">
           <i class="material-icons prefix text-teal">font_download</i>
-          <select id="selected">
+          <select id="raceclass">
             <option value="" disabled selected>Choose your Race Class</option>
             {% for class in site.data.racers.classes %} 
             <option value="{{ class.name }}">{{ class.name }}</option>
@@ -33,14 +33,6 @@
           <label class="active" for="{{ racer.id }}">{{ racer.label }}</label>
         </div>
         {% endfor %}
-        <div class="input-field">
-          <i class="material-icons prefix text-teal">call_split</i>
-          <select id="hill1">
-            <option value="" disabled selected>Race in Hill Climb only</option>
-            <option value="Yes">Yes</option>
-            <option value="No">No</option>
-          </select>
-        </div>
       </div>
       <!-- Racer # 2 info -->
       <div class="col s6">
@@ -52,16 +44,11 @@
           <label class="active" for="{{ racer.id }}">{{ racer.label }}</label>
         </div>
         {% endfor %}
-        <div class="input-field">
-          <i class="material-icons prefix text-teal">call_split</i>
-          <select id="hill2">
-            <option value="" disabled selected>Race in Hill Climb only</option>
-            <option value="Yes">Yes</option>
-            <option value="No">No</option>
-          </select>
-        </div>
       </div>
     </div>
+
+    {% include yes-no-march-18.html %}
+    {% include yes-no-march-19.html %}
 
     <div class="row">
       <div class="col offset-s6">
@@ -75,5 +62,7 @@
     </div>
   </form>
 </div>
+
+
 
 

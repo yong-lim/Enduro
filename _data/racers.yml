@@ -33,12 +33,6 @@ racer1:
   - icon  : "local_hospital"
     id    : "emergency1"
     label : "Phone for emergency:"
-  - icon  : "call_made"
-    id    : "koth1"
-    label : "King of the Hill bike type:"
-  - icon  : "directions_bike"
-    id    : "enduro1"
-    label : "Enduro bike type:"
 
 racer2:
   - icon  : "account_circle"
@@ -50,12 +44,6 @@ racer2:
   - icon  : "local_hospital"
     id    : "emergency2"
     label : "Phone for emergency:"
-  - icon  : "call_made"
-    id    : "koth2"
-    label : "King of the Hill bike type:"
-  - icon  : "directions_bike"
-    id    : "enduro2"
-    label : "Enduro bike type:"
 
 classes:
   - name : Class A (Pro Racer) 
