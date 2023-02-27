@@ -15,7 +15,7 @@
             <i class="material-icons prefix text-teal">font_download</i>
             <select id="raceclass" required>
               <option value="" disabled selected>Choose your Race Class</option>
-              {% for class in site.data.racers.classes %} 
+              {% for class in site.data.race.classes %} 
               <option value="{{ class.name }}">{{ class.name }}</option>
               {% endfor %}
             </select>
@@ -26,7 +26,7 @@
         <!-- Racer # 1 info -->
         <div class="col s6">
           <h5>Racer 1:</h5>
-          {% for racer in site.data.racers.racer1 %}
+          {% for racer in site.data.race.racer1 %}
           <div class="input-field">
             <i class="material-icons prefix text-teal">{{ racer.icon }}</i>
             <input id="{{ racer.id }}" type="text" {{ racer.req }}>
@@ -37,7 +37,7 @@
         <!-- Racer # 2 info -->
         <div class="col s6">
           <h5>Racer 2:</h5>
-          {% for racer in site.data.racers.racer2 %}
+          {% for racer in site.data.race.racer2 %}
           <div class="input-field">
             <i class="material-icons prefix text-teal">{{ racer.icon }}</i>
             <input id="{{ racer.id }}" type="text" {{ racer.req }}>
