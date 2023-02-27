@@ -20,4 +20,13 @@ By paying for this race, you agree that:
 
 **For racers under the age of 18 please pay by the parent.**
 
+___
+
+#### MAKING PAYMENT
+##### Please read the instruction first before paying
+
+When you make your payment, your bank account will not have any information related 
+to the race. Therefore after you make you payment, you must forward your payment 
+receipt to this phone number ######. Now you can scan the QR code below.
+
 ![](assets/img/QR-code.gif){: class="responsive-img"}
