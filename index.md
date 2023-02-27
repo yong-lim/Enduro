@@ -3,7 +3,7 @@ layout: base
 ---
 
 #### Racer acknowledgment / Waiver
-##### Your payment for this race is your consent electronic signature.
+##### Your registraction for this race is your consent electronic signature.
 
 Please be informed: Participation in the March 18, 2023 King of the Hill and
 March 19, 2023 Enduro Challenge can involve risk of injury, serious injury or
