@@ -5,6 +5,12 @@
 .btn, .btn-large, .btn-flat {
   height:auto !important;
 }
+.bq-18 {
+    border-left: 5px solid #00e676;
+}
+.bq-19 {
+    border-left: 5px solid #ff9100;
+}
 
 /* jordan's css */
 .alert-success{
