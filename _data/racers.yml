@@ -1,13 +1,13 @@
 fees: |
-  | Class           | Hill Climb*                     | Enduro           | 
-  | :-----------:   | :-----------------------------: | :--------------: | 
-  | :  Pro        : | : Free if registed for Enduro : | $35.00 per racer |
-  |^^  Semi-pro     | ^^                              | ^^               | 
-  |^^  Novice       | ^^                              | ^^               |
-  |^^  Master       | ^^                              | ^^               | 
-  |^^  LEC          | ^^                              | ^^               | 
-  |    Kids         | Free if registed for Enduro     | $20.00 per racer | 
-  |    PW E         | NA                              | Free             | 
+  | Class     | Hill Climb*                  | Enduro           | 
+  | ----------| ---------------------------- | ---------------- | 
+  | Pro       | Free if registed for Enduro  | $35.00 per racer |
+  | Semi-pro  | Free if registed for Enduro  | $35.00 per racer |
+  | Novice    | Free if registed for Enduro  | $35.00 per racer |
+  | Masters   | Free if registed for Enduro  | $35.00 per racer |
+  | LEC       | Free if registed for Enduro  | $35.00 per racer |
+  | Kids      | Free if registed for Enduro  | $20.00 per racer |
+  | PW E      | NA                           | $  -             | 
 
   __*Hill Climb is $20 per racer that DO NOT register for Enduro race__
 
@@ -61,3 +61,14 @@ classes:
   - name : Class LEC (Ladies)  
   - name : Class D (Kids)  
   - name : Trial Masters (Trial Bike Only)
+
+pay: |
+  #### MAKING PAYMENT
+  ##### Please read the instruction first before paying
+
+  When you make your payment, your bank account will not have any information related 
+  to the race. Therefore after you make your payment, you must forward your payment 
+  receipt plus what team or racer you are paying for to FaceBook Messenger (Sharon Link). 
+  Now scan the QR code below to make your payment.
+
+  ![](assets/img/QR-code.gif){: class="responsive-img"}
