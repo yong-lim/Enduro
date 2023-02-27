@@ -14,7 +14,7 @@
           <div class="input-field">
             <i class="material-icons prefix text-teal">font_download</i>
             <select id="raceclass" required>
-              <option value="" disabled selected>Choose your Race Class</option>
+              <option value="" disabled selected>Race Class</option>
               {% for class in site.data.race.classes %} 
               <option value="{{ class.name }}">{{ class.name }}</option>
               {% endfor %}
