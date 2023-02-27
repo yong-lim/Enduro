@@ -6,14 +6,14 @@
         <div class="col s12">
           <div class="input-field">
             <i class="material-icons prefix text-teal">group</i>
-            <input id="team" type="text" required>
+            <input id="team" type="text">
             <label class="active" for="team">Team Name:</label>
           </div>
         </div>
         <div class="col s6">
           <div class="input-field">
             <i class="material-icons prefix text-teal">font_download</i>
-            <select id="raceclass">
+            <select id="raceclass" required>
               <option value="" disabled selected>Choose your Race Class</option>
               {% for class in site.data.racers.classes %} 
               <option value="{{ class.name }}">{{ class.name }}</option>
@@ -29,7 +29,7 @@
           {% for racer in site.data.racers.racer1 %}
           <div class="input-field">
             <i class="material-icons prefix text-teal">{{ racer.icon }}</i>
-            <input id="{{ racer.id }}" type="text">
+            <input id="{{ racer.id }}" type="text" {{ racer.req }}>
             <label class="active" for="{{ racer.id }}">{{ racer.label }}</label>
           </div>
           {% endfor %}
@@ -40,7 +40,7 @@
           {% for racer in site.data.racers.racer2 %}
           <div class="input-field">
             <i class="material-icons prefix text-teal">{{ racer.icon }}</i>
-            <input id="{{ racer.id }}" type="text">
+            <input id="{{ racer.id }}" type="text" {{ racer.req }}>
             <label class="active" for="{{ racer.id }}">{{ racer.label }}</label>
           </div>
           {% endfor %}
@@ -51,7 +51,7 @@
 
       <div class="row">
         <div class="col offset-s6">
-          <button class="btn waves-effect waves-light deep-orange" type="submit" name="action">
+          <button class="submit-btn btn waves-effect waves-light deep-orange" type="submit" name="action">
             We accept the waiver and the fees!<i class="material-icons right">send</i>
           </button>
           <div id="alert-field" class="alert hidden">
