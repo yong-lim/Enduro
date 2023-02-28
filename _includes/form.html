@@ -14,7 +14,7 @@
           <div class="input-field">
             <i class="material-icons prefix text-teal">font_download</i>
             <select id="raceclass" required>
-              <option value="" disabled selected>Race Class</option>
+              <option value="" disabled selected>Class</option>
               {% for class in site.data.race.classes %} 
               <option value="{{ class.name }}">{{ class.name }}</option>
               {% endfor %}
@@ -33,28 +33,7 @@
             <label class="active" for="{{ racer.id }}">{{ racer.label }}</label>
           </div>
           {% endfor %}
-          <div>
-            <b>Hill climb  :</b>   
-            <label>
-              <input class="with-gap" name="hill1" type="radio" value="Yes" required/>
-              <span>Yes</span>
-            </label>
-            <label>
-              <input class="with-gap" name="hill1" type="radio" value="No" required/>
-              <span>No</span>
-            </label>
-          </div>
-          <div>
-            <b>Enduro race:</b>
-            <label>
-              <input class="with-gap" name="enduro1" type="radio" value="Yes" required/>
-              <span>Yes</span>
-            </label>
-            <label>
-              <input class="with-gap" name="enduro1" type="radio" value="No" required/>
-              <span>No</span>
-            </label>
-          </div>
+          {% include yes-no-racer-1.html %}
         </div>
         <!-- Racer # 2 info -->
         <div class="col m6">
@@ -66,28 +45,7 @@
             <label class="active" for="{{ racer.id }}">{{ racer.label }}</label>
           </div>
           {% endfor %}
-          <div>
-            <b>Hill climb:</b>
-            <label>
-              <input class="with-gap" name="hill2" type="radio" value="Yes"d/>
-              <span>Yes</span>
-            </label>
-            <label>
-              <input class="with-gap" name="hill2" type="radio" value="No"/>
-              <span>No</span>
-            </label>
-          </div>
-          <div>
-            <b>Enduro race:</b>
-            <label>
-              <input class="with-gap" name="enduro2" type="radio" value="Yes"/>
-              <span>Yes</span>
-            </label>
-            <label>
-              <input class="with-gap" name="enduro2" type="radio" value="No"/>
-              <span>No</span>
-            </label>
-          </div>
+          {% include yes-no-racer-2.html %}
         </div>
       </div>
 
@@ -103,6 +61,7 @@
       </div>
     </form>
 
+    <br>
     <div class="row">
       <div class="col m6 offset-m6 ">
         <a href="#pay" class="waves-effect waves-light btn light-blue darken-4">Make Payment</a>
