@@ -1,29 +1,3 @@
-/* override materializecss blockquote values */
-.hidden{
-  display:none !important
-}
-.btn, .btn-large, .btn-flat {
-  height:auto !important;
-}
-.bq-18 {
-    border-left: 5px solid #00e676;
-}
-.bq-19 {
-    border-left: 5px solid #ff9100;
-}
-.bq-17 {
-    border-left: 5px solid #6d4c41;
-}
-h4 {
-  font-size: 2.0rem;
-}
-h5 {
-  font-size: 1.5rem;
-}
-.flow-text {
-  font-size: 1.4rem;
-}
-
 /* jordan's css */
 .alert-success{
   background-color:#dff0d8;
