@@ -12,6 +12,7 @@ function postEnduroMarch23(e) {
   e.preventDefault();
 
   console.log("in postEnduroMarch23");
+  
   console.log("Team:", e.target['team'].value);
   console.log("raceclass:", e.target['raceclass'].value);
   console.log("phone1:", e.target['phone1'].value);
@@ -70,8 +71,3 @@ function changeSubject(e) {
     $('#hidden-other-subject').addClass('hidden');
   }
 }
-
-
-
-
-

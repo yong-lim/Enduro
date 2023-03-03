@@ -8,37 +8,7 @@
 <!-- <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"> </script> -->
 <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.3/jquery.min.js" integrity="sha512-STof4xm1wgkfm7heWqFJVn58Hm3EtS31XFaagaa8VMReCXAkQnJZ+jEy8PCC/iT18dFy95WcExNHFTqLyp72eQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
 <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
-<script type="text/javascript" src="{{ site.baseurl }}/assets/js/float-panel.js"> </script>
-<script type="text/javascript" src="{{ site.baseurl }}/assets/js/jordan.js"> </script>
 
-<script>
-  $(document).ready(function () {
-    $("select").formSelect();
-    // Create your validation helper text
-    var validationMessage = '<span class="helper-text" data-error="Please choose your race class"></span>';
-    // Place it in the dom
-    $('.select-wrapper input').after(validationMessage);
-    // Error logic
-    var select = jQuery('.select-wrapper input')[0];
-    $('.submit-btn').on('click',function(){
-      if ( jQuery('ul.select-dropdown li:not(.disabled).selected').length < 1 ) {
-        $(select).addClass('invalid');
-      }     
-      
-    });
-
-    $('.materialboxed').materialbox();
-    $('.scrollspy').scrollSpy();
-    changeColor();
-  });
-
-  function changeColor(){
-    var options_elem = document.querySelectorAll(".dropdown-content li>a, .dropdown-content li>span");
-    const alt_color  = ["deep-purple-text", "teal", "lighten-5"];
-    //index==0 is the disabled option element
-    options_elem.forEach(function(element, index){
-      if (index == 2 || index == 4 || index == 6) element.classList.add(...alt_color);
-    });
-  }
-</script>
-
+<script type="text/javascript" src="{{ 'assets/js/float-panel.js' | relative_url }}"> </script>
+<script type="text/javascript" src="{{ 'assets/js/jordan.js' | relative_url }}"> </script>
+<script src="{{ 'assets/js/main.js' | relative_url }}"></script>
