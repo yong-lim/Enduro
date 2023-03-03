@@ -34,12 +34,10 @@
 
   function changeColor(){
     var options_elem = document.querySelectorAll(".dropdown-content li>a, .dropdown-content li>span");
-    
+    const alt_color  = ["deep-purple-text", "teal", "lighten-5"];
     //index==0 is the disabled option element
     options_elem.forEach(function(element, index){
-      if     (index == 2) element.classList.add("deep-purple-text", "teal", "lighten-5");
-      else if(index == 4) element.classList.add("deep-purple-text", "teal", "lighten-5");
-      else if(index == 6) element.classList.add("deep-purple-text", "teal", "lighten-5");
+      if (index == 2 || index == 4 || index == 6) element.classList.add(...alt_color);
     });
   }
 </script>
