@@ -77,13 +77,13 @@ radio1:
     label : "Name:"
  
 classes:
-  - name : Class A (Pro Racer) 
-  - name : Class B (Semi-Pro Racer)  
-  - name : Class C (Novice racer)  
-  - name : Class M (Masters 40Y up)  
-  - name : Class LEC (Ladies)  
-  - name : Class D (Kids)  
-  - name : Trial Masters (Trial Bike Only)
+  - name : "Class A (Pro Racer)" 
+  - name : "Class B (Semi-Pro Racer)"  
+  - name : "Class C (Novice racer)"
+  - name : "Class M (Masters 40Y up)"
+  - name : "Class LEC (Ladies)"
+  - name : "Class D (Kids)"
+  - name : "Trial Masters (Trial Bike Only)"
 
 pay: |
   #### MAKE PAYMENT
