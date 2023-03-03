@@ -37,12 +37,10 @@
     
     //index==0 is the disabled option element
     options_elem.forEach(function(element, index){
-      if(index == "2") element.classList.add("teal", "lighten-5");
-      if(index == "2") element.classList.add("deep-purple-text");
-      if(index == "4") element.classList.add("teal", "lighten-5");
-      if(index == "4") element.classList.add("deep-purple-text");
-      if(index == "6") element.classList.add("teal", "lighten-5");
-      if(index == "6") element.classList.add("deep-purple-text");
+      if     (index == 2) element.classList.add("deep-purple-text", "teal", "lighten-5");
+      else if(index == 4) element.classList.add("deep-purple-text", "teal", "lighten-5");
+      else if(index == 6) element.classList.add("deep-purple-text", "teal", "lighten-5");
     });
   }
 </script>
+
