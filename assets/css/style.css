@@ -24,6 +24,8 @@ h5 {
   font-size: 1.4rem;
 }
 
+.select-wrapper * { transition: none !important; transform: none !important; }
+
 .container {
   width: 80%;
 }
