@@ -3,6 +3,7 @@ $(document).ready(function () {
   console.log("[" + now.toUTCString() + "] In main.js of enduro-form.");
 
   $("select").formSelect();
+
   // Create your validation helper text
   var validationMessage = '<span class="helper-text" data-error="Please choose your race class"></span>';
   // Place it in the dom
@@ -22,14 +23,6 @@ $(document).ready(function () {
   changeColor();
 });
 
-(function($){
-  $(function(){
-    $(document).ready(function() {
-        $('select').material_select();
-      });
-  });
-})(jQuery);
-
 function changeColor(){
   var options_elem = document.querySelectorAll(".dropdown-content li>a, .dropdown-content li>span");
   const alt_color  = ["deep-purple-text", "teal", "lighten-5"];
@@ -38,4 +31,5 @@ function changeColor(){
     if (index == 2 || index == 4 || index == 6) element.classList.add(...alt_color);
   });
 }
+
 
