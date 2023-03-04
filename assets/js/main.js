@@ -2,7 +2,7 @@ $(document).ready(function () {
   const now = new Date();
   console.log("[" + now.toUTCString() + "] In main.js of enduro-form.");
 
-  // $("select").formSelect();
+  $("select").formSelect();
   // Create your validation helper text
   var validationMessage = '<span class="helper-text" data-error="Please choose your race class"></span>';
   // Place it in the dom
@@ -38,3 +38,4 @@ function changeColor(){
     if (index == 2 || index == 4 || index == 6) element.classList.add(...alt_color);
   });
 }
+
