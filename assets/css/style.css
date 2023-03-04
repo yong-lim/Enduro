@@ -24,6 +24,7 @@ h5 {
   font-size: 1.4rem;
 }
 
+/* very import override materialize ccs' select option on iOS device */
 .select-wrapper * { transition: none !important; transform: none !important; }
 
 .container {
