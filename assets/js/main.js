@@ -1,9 +1,23 @@
 $(document).ready(function () {
   const now = new Date();
-  console.log("[" + now.toUTCString() + "] In main.js of enduro-form.");
+  // console.log("[" + now.toUTCString() + "] In main.js of enduro-form.");
 
   $("select").formSelect();
-
+  $("#raceclass").on('change', function() {
+    // console.log(this.value);
+    if (this.value == "Trial Masters (Trial Bike Only)"){ 
+      // console.log("hide hills");
+      $('#hill1 input').attr('required',false);
+      $('#hill1').addClass("hidden");
+      $('#hill2').addClass("hidden");
+    }
+    else {
+      // console.log("remove hills");
+      $('#hill1 input').attr('required',true);
+      $('#hill1').removeClass("hidden");
+      $('#hill2').removeClass("hidden");
+    }
+  });
   // Create your validation helper text
   var validationMessage = '<span class="helper-text" data-error="Please choose your race class"></span>';
   // Place it in the dom
