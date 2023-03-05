@@ -27,6 +27,11 @@ h5 {
 /* very import override materialize ccs' select option on iOS device */
 .select-wrapper * { transition: none !important; transform: none !important; }
 
+progress {  
+  width: 80%;
+  height: 25px;  
+}  
+
 .container {
   width: 80%;
 }
@@ -69,4 +74,7 @@ h5 {
   text-align: center;
   color: white;
 }
+
+
+
 
