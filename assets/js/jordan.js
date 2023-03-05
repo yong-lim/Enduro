@@ -52,7 +52,7 @@ function postEnduroMarch23(e) {
 
     $('#alert-field')
       .removeClass()
-      .html('<progress></progress>')
+      .html('<span><b><p>Please wait while we register you ...</p></b> <progress></progress></span>')
       .removeClass('hidden');
   } else {
     alert('You must set the POST_URL variable with your script ID');
