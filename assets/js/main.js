@@ -4,14 +4,17 @@ $(document).ready(function () {
 
   $("select").formSelect();
   $("#raceclass").on('change', function() {
+    var selIndex = $(this).prop('selectedIndex');
     // console.log(this.value);
-    if (this.value == "Trial Masters (Trial Bike Only)"){ 
-      // console.log("hide hills");
+    // console.log(selIndex);
+    if (selIndex > 5){ 
+      // hide the hill and enduro options from kids and trail masters
       $('#hill1 input').attr('required',false);
       $('#hill1').addClass("hidden");
       $('#hill2').addClass("hidden");
     }
     else {
+      // un-hide the hill and enduro options from kids and trail masters
       // console.log("remove hills");
       $('#hill1 input').attr('required',true);
       $('#hill1').removeClass("hidden");
