@@ -7,14 +7,14 @@ $(document).ready(function () {
     var selIndex = $(this).prop('selectedIndex');
     // console.log(this.value);
     // console.log(selIndex);
-    if (selIndex > 5){ 
-      // hide the hill and enduro options from kids and trail masters
+    if (selIndex > 6){ 
+      // hide the hill and enduro options from trail masters
       $('#hill1 input').attr('required',false);
       $('#hill1').addClass("hidden");
       $('#hill2').addClass("hidden");
     }
     else {
-      // un-hide the hill and enduro options from kids and trail masters
+      // un-hide the hill and enduro options from trail masters
       // console.log("remove hills");
       $('#hill1 input').attr('required',true);
       $('#hill1').removeClass("hidden");
