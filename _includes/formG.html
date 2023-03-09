@@ -1,0 +1,76 @@
+<script type="text/javascript">var submitted=false</script>
+<iframe name="hiddenConfirm" id="hiddenConfirm" style="display:none;" 
+  onload="if(submitted){
+    
+    window.location='{{ site.baseurl }}submission.html';
+  }"></iframe>
+
+<section class="section section-form scrollspy" id="form">
+  <div class="container">
+    <h4 class="center">Please fill in the form to register:</h4>
+    <form action="https://docs.google.com/forms/d/e/1FAIpQLSfbu-wUjh1e9loVhwZuvy2N7eSuvtWKjZxPHV28UbCHwOKyMQ/formResponse" method="post" target="hiddenConfirm" onsubmit="submitted=true">
+      <div class="row">
+        <div class="col s12">
+          <div class="input-field">
+            <i class="material-icons prefix text-teal">group</i>
+            <input id="team" type="text" name="entry.756253663" required>
+            <label class="active" for="entry.756253663">Team Name:</label>
+          </div>
+        </div>
+        <div class="col s12">
+          <div class="input-field">
+            <i class="material-icons prefix text-teal">font_download</i>
+            <select id="raceclass" name="entry.1266295615" required>
+              <option value="" disabled selected>Class</option>
+              {% for class in site.data.race.classes %} 
+              <option value="{{ class.name }}">{{ class.name }}</option>
+              {% endfor %}
+            </select>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <!-- Racer # 1 info -->
+        <div class="col m6">
+          <h5>Racer 1:</h5>
+          {% for racer in site.data.race.racer1 %}
+          <div class="input-field">
+            <i class="material-icons prefix text-teal">{{ racer.icon }}</i>
+            <input id="{{ racer.id }}" type="text" name="{{ racer.name }}" {{ racer.req }}>
+            <label class="active" for="{{ racer.id }}">{{ racer.label }}</label>
+          </div>
+          {% endfor %}
+          {% include yes-no-racer-1.html %}
+        </div>
+        <!-- Racer # 2 info -->
+        <div class="col m6">
+          <h5>Racer 2:</h5>
+          {% for racer in site.data.race.racer2 %}
+          <div class="input-field">
+            <i class="material-icons prefix text-teal">{{ racer.icon }}</i>
+            <input id="{{ racer.id }}" type="text" name="{{ racer.name }}" {{ racer.req }}>
+            <label class="active" for="{{ racer.id }}">{{ racer.label }}</label>
+          </div>
+          {% endfor %}
+          {% include yes-no-racer-2.html %}
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col m6 offset-m6">
+          <button class="submit-btn btn waves-effect waves-light deep-orange" type="submit" name="action">
+            We accept waiver and fees.<br> Register US!<i class="material-icons right">send</i>
+          </button>
+          <button type="reset" class="btn waves-effect waves-dark">Reset</button>
+        </div>
+      </div>
+    </form>
+
+    <br>
+    <div class="row">
+      <div class="col m6 offset-m6 ">
+        <a href="#pay" class="waves-effect waves-light btn light-blue darken-4">Make Payment</a>
+      </div>
+    </div>
+  </div>
+</section>

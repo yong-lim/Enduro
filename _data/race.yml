@@ -50,27 +50,33 @@ waiver: |
 racer1:
   - icon  : "account_circle"
     id    : "name1"
+    name  : "entry.316818058"
     label : "Name:"
     req   : "required"
   - icon  : "phone"
     id    : "phone1"
+    name  : "entry.261002137"
     label : "Phone:"
     req   : "required"
   - icon  : "local_hospital"
     id    : "emergency1"
+    name  : "entry.1294814802"
     label : "Phone for emergency:"
 
 racer2:
   - icon  : "account_circle"
     id    : "name2"
+    name  : "entry.15140904"
     label : "Name:"
   - icon  : "phone"
     id    : "phone2"
+    name  : "entry.1061090279"
     label : "Phone:"
   - icon  : "local_hospital"
     id    : "emergency2"
+    name  : "entry.960209371"
     label : "Phone for emergency:"
-
+      
 radio1:
   - icon  : "account_circle"
     id    : "name1"
@@ -98,4 +104,3 @@ pay: |
 
 pay_QR: |
   ![](assets/img/Sharon-ABA-sm.jpg){: class="responsive-img center"}
-
