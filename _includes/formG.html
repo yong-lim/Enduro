@@ -1,8 +1,12 @@
 <script type="text/javascript">var submitted=false</script>
 <iframe name="hiddenConfirm" id="hiddenConfirm" style="display:none;" 
   onload="if(submitted){
-    window.location='{{ site.baseurl }}submission.html';
+    window.location='{{ site.baseurl }}';
+    document.getElementById('form')classList.add('hidden');
+    document.getElementById('thank-you')classList.remove('hidden');
   }"></iframe>
+
+{% include thank-you.html %}
 
 <section class="section section-form scrollspy" id="form">
   <div class="container">
@@ -73,3 +77,6 @@
     </div>
   </div>
 </section>
+
+
+

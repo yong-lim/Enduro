@@ -28,10 +28,11 @@ $(document).ready(function () {
   // Error logic
   var select = jQuery('.select-wrapper input')[0];
   $('.submit-btn').on('click',function(){
-    if ( jQuery('ul.select-dropdown li:not(.disabled).selected').length < 1 ) {
+    if (jQuery('ul.select-dropdown li:not(.disabled).selected').length < 1 ) {
       $(select).addClass('invalid');
-    }     
-    
+    }
+    $('#thank-you').removeClass("hidden");
+    $('#form').addClass("hidden");
   });
 
   $('.materialboxed').materialbox();
@@ -48,5 +49,3 @@ function changeColor(){
     if (index == 2 || index == 4 || index == 6) element.classList.add(...alt_color);
   });
 }
-
-
