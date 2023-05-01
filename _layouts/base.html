@@ -1,19 +1,16 @@
----
----
-
 <!DOCTYPE html>
 <html lang="{{ page.lang | default: site.lang | default: "en" }}">
 
-  {% include head.html %}
+   {% include head.html %}
 
-  <body>
+   <body>
     
-  {% include home.html %}
-  {% include formG.html %}
-  {% include fees.html %}
-  {% include waiver.html %}
-  {% include pay.html %}
+   {% include home.html %}
+   {{ content }}
+   {% include fees.html %}
+   {% include waiver.html %}
+   {% include pay.html %}
 
-  {% include footer.html %}
-  </body>
+   {% include footer.html %}
+   </body>
 </html>
