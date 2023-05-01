@@ -1,26 +1,27 @@
-      <div class="row">
-        <!-- Racer # 1 info -->
-        <div class="col m6">
-          <h5>Racer 1:</h5>
-          {% for racer in site.data.race.racer1 %}
-          <div class="input-field">
-            <i class="material-icons prefix text-teal">{{ racer.icon }}</i>
-            <input id="{{ racer.id }}" type="text" name="{{ racer.name }}" {{ racer.req }}>
-            <label class="active" for="{{ racer.id }}">{{ racer.label }}</label>
-          </div>
-          {% endfor %}
-          {% include yes-no-racer-1.html %}
-        </div>
-        <!-- Racer # 2 info -->
-        <div class="col m6">
-          <h5>Racer 2:</h5>
-          {% for racer in site.data.race.racer2 %}
-          <div class="input-field">
-            <i class="material-icons prefix text-teal">{{ racer.icon }}</i>
-            <input id="{{ racer.id }}" type="text" name="{{ racer.name }}" {{ racer.req }}>
-            <label class="active" for="{{ racer.id }}">{{ racer.label }}</label>
-          </div>
-          {% endfor %}
-          {% include yes-no-racer-2.html %}
-        </div>
+<!-- Racers info -->
+<div class="row">
+   <!-- Racer # 1 info -->
+   <div class="col m6">
+      <h5>Racer 1:</h5>
+      {% for racer in site.data.race.racer1 %}
+      <div class="input-field">
+         <i class="material-icons prefix text-teal">{{ racer.icon }}</i>
+         <input id="{{ racer.id }}" type="text" name="{{ racer.name }}" {{ racer.req }}>
+         <label class="active" for="{{ racer.id }}">{{ racer.label }}</label>
       </div>
+      {% endfor %}
+      {% include yes-no-racer-1.html %}
+   </div>
+   <!-- Racer # 2 info -->
+   <div class="col m6">
+      <h5>Racer 2:</h5>
+      {% for racer in site.data.race.racer2 %}
+      <div class="input-field">
+         <i class="material-icons prefix text-teal">{{ racer.icon }}</i>
+         <input id="{{ racer.id }}" type="text" name="{{ racer.name }}" {{ racer.req }}>
+         <label class="active" for="{{ racer.id }}">{{ racer.label }}</label>
+      </div>
+      {% endfor %}
+      {% include yes-no-racer-2.html %}
+   </div>
+</div>
