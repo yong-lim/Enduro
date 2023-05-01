@@ -47,6 +47,7 @@ waiver: |
 
   **For racers under the age of 18 please pay by the parent.**
 
+team-name: "entry.756253663"
 racer1:
   - icon  : "account_circle"
     id    : "name1"
@@ -82,6 +83,7 @@ radio1:
     id    : "name1"
     label : "Name:"
  
+race-class: "entry.1266295615"
 classes:
   - name : "Class A (Pro Racer)" 
   - name : "Class B (Semi-Pro Racer)"  
@@ -90,6 +92,11 @@ classes:
   - name : "Class LEC (Ladies)"
   - name : "Class D (Kids)"
   - name : "Trial Masters (Trial Bike Only)"
+
+r1-hill: "entry.2131610651"
+r1-endu: "entry.1760404173"
+r2-hill: "entry.69002109"
+r2-endu: "entry.1913362904"
 
 pay: |
   #### MAKE PAYMENT
