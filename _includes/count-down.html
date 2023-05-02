@@ -1,0 +1,45 @@
+<section id="home" class="section section-home scrollspy grey lighten-1">
+    <div class="container"
+        x-data="timer()"
+        x-init="countdown()" >
+        <img class="responsive-img" src="assets/img/Enduro-2023.jpg" alt="">
+        <div class="row">
+            <div class="col m12 center">
+                <h3>Count down to the next race . . .</h3>
+            </div">
+            <div class="col m3 center">
+                <div>
+                    <h4>
+                        <span class="timer-count" x-text="days"></span>
+                        <span class="timer-type">Days</span>
+                    </h4>
+                </div>
+            </div>
+            <div class="col m3 center">
+                <div>
+                    <h4>
+                        <span class="timer-count" x-text="hours"></span>
+                        <span class="timer-type">Hours</span>
+                    </h4>
+                </div>
+            </div>
+            <div class="col m3 center">
+                <div>
+                    <h4>
+                        <span class="timer-count" x-text="minutes"></span>
+                        <span class="timer-type">Minutes</span>
+                    </h4>
+                </div>
+            </div>
+            <div class="col m3 center">
+                <div>
+                    <h4>
+                        <span class="timer-count" x-text="seconds"></span>
+                        <span class="timer-type">Seconds</span>
+                    </h4>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
