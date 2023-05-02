@@ -4,7 +4,8 @@
     window.location='{{ site.baseurl }}';
     document.getElementById('form')classList.add('hidden');
     document.getElementById('thank-you')classList.remove('hidden');
-  }"></iframe>
+  }">
+</iframe>
 
 {% include thank-you.html %}
 
@@ -16,14 +17,14 @@
         <div class="col s12">
           <div class="input-field">
             <i class="material-icons prefix text-teal">group</i>
-            <input id="team" type="text" name="entry.756253663" required>
-            <label class="active" for="entry.756253663">Team Name:</label>
+            <input id="team" type="text" name="{{ site.data.race.team-name }}" required>
+            <label class="active" for="{{ site.data.race.team-name }}">Team Name:</label>
           </div>
         </div>
         <div class="col s12">
           <div class="input-field">
             <i class="material-icons prefix text-teal">font_download</i>
-            <select id="raceclass" name="entry.1266295615" required>
+            <select id="raceclass" name="{{ site.data.race.race-class }}" required>
               <option value="" disabled selected>Class</option>
               {% for class in site.data.race.classes %} 
               <option value="{{ class.name }}">{{ class.name }}</option>
