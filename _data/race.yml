@@ -1,19 +1,18 @@
 form_title : Registration Form
-location   : Kirirom, Kingdom of Cambodia
-dates      : March 18, 2023 King of the Hill - March 19, 2023 Enduro Challenge
+location   : Kampot, Kingdom of Cambodia
+dates      : August 26, 2023 King of the Hill - August 27, 2023 Enduro Challenge
 
 fees: |
-  #### 2023 Registration Fees
   > ##### Enduro only or Enduro + Hill climb:
   > - Adult $35 per racer
   > - Kids $20 per racer
   > - PeeWee FREE
-  {: .bq-18}
+  {: .bq-1}
   
   > ##### Hill climb only:
   > - Adult $20 per racer
   > - Kids $10 per racer
-  {: .bq-19}
+  {: .bq-2}
 
 paid-for: |
   ---
@@ -28,11 +27,10 @@ paid-for: |
   1. Race entry Hill Climb
 
 waiver: |
-  #### Racer acknowledgment / Waiver
   ##### Your registraction for this race is your consent electronic signature.
 
-  Please be informed: Participation in the March 18, 2023 King of the Hill and
-  March 19, 2023 Enduro Challenge can involve risk of injury, serious injury or
+  Please be informed: Participation in the August 26, 2023 King of the Hill and
+  August 27, 2023 Enduro Challenge can involve risk of injury, serious injury or
   death, property damage, and other dangers associated with outdoor activities and motor racing.
 
   By paying for this race, you agree that:
@@ -99,7 +97,6 @@ r2-hill: "entry.69002109"
 r2-endu: "entry.1913362904"
 
 pay: |
-  #### MAKE PAYMENT
   ##### Please read the instruction first before paying
 
   After you have made your payment, please send us your prove of payment receipt 
