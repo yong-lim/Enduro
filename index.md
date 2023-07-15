@@ -1,3 +1,5 @@
 ---
-layout: base-count
+layout: base
 ---
+
+{% include formG.html %}
