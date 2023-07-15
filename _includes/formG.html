@@ -36,7 +36,7 @@
       </div>
       <div class="row">
         <!-- Racer # 1 info -->
-        <div class="col m6">
+        <div class="col m6 indigo lighten-4">
           <h5>Racer 1:</h5>
           {% for racer in site.data.race.racer1 %}
           <div class="input-field">
@@ -48,7 +48,7 @@
           {% include yes-no-racer-1.html %}
         </div>
         <!-- Racer # 2 info -->
-        <div class="col m6">
+        <div class="col m6 amber lighten-4">
           <h5>Racer 2:</h5>
           {% for racer in site.data.race.racer2 %}
           <div class="input-field">
@@ -61,13 +61,11 @@
         </div>
       </div>
 
-      <div class="row">
-        <div class="col m6 offset-m6">
+      <div class="row center">
           <button class="submit-btn btn waves-effect waves-light deep-orange" type="submit" name="action">
             We accept waiver and fees.<br> Register US!<i class="material-icons right">send</i>
           </button>
           <button type="reset" class="btn waves-effect waves-dark">Reset</button>
-        </div>
       </div>
     </form>
 
