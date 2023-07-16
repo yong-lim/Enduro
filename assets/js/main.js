@@ -7,7 +7,7 @@ $(document).ready(function () {
     var selIndex = $(this).prop('selectedIndex');
     // console.log(this.value);
     // console.log(selIndex);
-    if (selIndex > 5){ 
+    if (selIndex > 6){ 
       // hide the hill and enduro options from trail masters
       $('#hill1 input').attr('required',false);
       $('#hill1').addClass("hidden");
