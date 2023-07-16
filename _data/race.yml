@@ -89,6 +89,7 @@ classes:
   - name : "Class M (Masters 40Y up)"
   - name : "Class LEC (Ladies)"
   - name : "Class D (Kids)"
+  - name : "Class E (PeeWee)"
   - name : "Trial Masters (Trial Bike Only)"
 
 r1-hill: "entry.2131610651"
@@ -107,4 +108,4 @@ pay: |
   **+855 12 374 623**
 
 pay_QR: |
-  ![](assets/img/Sharon-ABA-sm.jpg){: class="responsive-img center"}
+  [![ABA](assets/img/Sharon-ABA-sm.jpg){: class="responsive-img center"}](https://pay.ababank.com/DeMLkg72wCHVg2gQ7)
