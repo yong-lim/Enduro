@@ -7,7 +7,7 @@ $(document).ready(function () {
     var selIndex = $(this).prop('selectedIndex');
     // console.log(this.value);
     // console.log(selIndex);
-    if (selIndex > 6){ 
+    if (selIndex > 5){ 
       // hide the hill and enduro options from trail masters
       $('#hill1 input').attr('required',false);
       $('#hill1').addClass("hidden");
@@ -46,6 +46,6 @@ function changeColor(){
   const alt_color  = ["deep-purple-text", "teal", "lighten-5"];
   //index==0 is the disabled option element
   options_elem.forEach(function(element, index){
-    if (index == 2 || index == 4 || index == 6) element.classList.add(...alt_color);
+    if (index == 2 || index == 4 || index == 6 || index == 8 || index == 10) element.classList.add(...alt_color);
   });
 }
