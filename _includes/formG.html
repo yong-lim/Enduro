@@ -18,8 +18,8 @@
         <div class="col s12">
           <div class="input-field">
             <i class="material-icons prefix text-teal">group</i>
-            <input id="team" type="text" name="{{ site.data.race.team-name }}">
-            <label class="active" for="{{ site.data.race.team-name }}">Team Name:</label>
+            <input id="team" type="text" name="{{ site.data.race.team-name }}" class="validate" required="" aria-required="true">
+            <label class="active" for="team">Team Name:</label>
           </div>
         </div>
         <div class="col s12">
@@ -66,6 +66,12 @@
             We accept waiver and fees.<br> Register US!<i class="material-icons right">send</i>
           </button>
           <button type="reset" class="btn waves-effect waves-dark">Reset</button>
+          <div id="alert-field" class="alert hidden">
+            <span>
+              <b><p>Please wait while we register you ...</p></b>
+              <progress></progress>
+            </span>
+          </div>
       </div>
     </form>
 

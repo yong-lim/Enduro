@@ -28,8 +28,17 @@ $(document).ready(function () {
   // Error logic
   var select = jQuery('.select-wrapper input')[0];
   $('.submit-btn').on('click',function(){
+    if ($('#team').value == null) {
+      console.log("#team value is null ");
+      return -1;
+    }
+    if ($('#name1').value == null) {
+      console.log("#name1 value is null ");
+      return -1;
+    }
     if (jQuery('ul.select-dropdown li:not(.disabled).selected').length < 1 ) {
       $(select).addClass('invalid');
+      return -1;
     }
     $('#thank-you').removeClass("hidden");
     $('#form').addClass("hidden");
