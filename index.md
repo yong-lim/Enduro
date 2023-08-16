@@ -2,4 +2,4 @@
 layout: base
 ---
 
-{% include formG.html %}
+{% include form.html %}
