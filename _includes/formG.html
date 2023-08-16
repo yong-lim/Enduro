@@ -3,14 +3,14 @@
 <iframe name="hiddenConfirm" id="hiddenConfirm" style="display:none;" 
   onload="if(submitted){
     window.location='{{ site.baseurl }}';
-    document.getElementById('form').classList.add('hidden');
+    document.getElementById('formG').classList.add('hidden');
     document.getElementById('thank-you').classList.remove('hidden');
   }">
 </iframe>
 
 {% include thank-you.html %}
 
-<section class="section section-form scrollspy" id="form">
+<section class="section section-form scrollspy" id="formG">
   <div class="container">
     <h4 class="center">Please fill in the form to register:</h4>
     <form action="https://docs.google.com/forms/d/e/1FAIpQLSfTL3EHr9QD0iadIK9pktDj82KAQ_DGXEWEeQORCV2R79Jk0A/formResponse" method="post" target="hiddenConfirm" onsubmit="submitted=true">
@@ -75,10 +75,6 @@
       </div>
     </form>
 
-    <br>
-    <div class="row center">
-        <a href="#pay" class="waves-effect waves-light btn light-blue darken-4">Make Payment</a>
-    </div>
   </div>
 </section>
 
