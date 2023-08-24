@@ -1,0 +1,18 @@
+---
+layout: base
+form_title : <h4>Registration Form</h4>
+location   : Kampot, Kingdom of Cambodia
+dates      : August 26, 2023 King of the Hill - August 27, 2023 Enduro Challenge
+
+form_closed: Online Registration is Close
+on_site_reg: Please register at the race site
+---
+
+{% include title.html %}
+
+{% if page.form_closed %}
+  {% include countdown-sm.html %}
+{% else %}
+  {% include form.html %}
+{% endif %}
+
