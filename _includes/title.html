@@ -1,0 +1,20 @@
+<!-- Section: title -->
+<section id="title" class="section teal lighten-1 scrollspy">
+   <div class="title">
+      <h4>{{ page.form_closed | default: page.form_title }}</h4>
+      <h5>{{ page.on_site_reg | default: "" }}</h5>
+      <h5>{{ page.location }}</h5>
+      <p class="flow-text">{{ page.dates }}</p>
+      {% if page.form_closed == nil %}
+      <div class="row">
+         <div class="col m4 offset-m2 center">
+            <a href="#waiver" class="waves-effect waves-light btn purple darken-2">read the waiver</a>
+         </div>
+         <div class="col m4 center">
+            <a href="#fees" class="waves-effect waves-light btn purple darken-2">read the fees</a>
+         </div>
+      </div>
+      {% endif %}
+   </div>
+</section>
+
