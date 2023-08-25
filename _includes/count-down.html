@@ -1,45 +1,29 @@
-<section id="home" class="section section-home teal white-text center">
-    <div class="container"
-        x-data="timer()"
-        x-init="countdown()" >
-        <div class="row">
-            <div class="col m12 ">
-                <h4>Count down to the next race . . .</h4>
-            </div">
-            <div class="col m3 center">
-                <div>
-                    <h5>
-                        <span class="timer-count" x-text="days"></span>
-                        <span class="timer-type">Days</span>
-                    </h5>
-                </div>
-            </div>
-            <div class="col m3 center">
-                <div>
-                    <h5>
-                        <span class="timer-count" x-text="hours"></span>
-                        <span class="timer-type">Hours</span>
-                    </h5>
-                </div>
-            </div>
-            <div class="col m3 center">
-                <div>
-                    <h5>
-                        <span class="timer-count" x-text="minutes"></span>
-                        <span class="timer-type">Minutes</span>
-                    </h5>
-                </div>
-            </div>
-            <div class="col m3 center">
-                <div>
-                    <h5>
-                        <span class="timer-count" x-text="seconds"></span>
-                        <span class="timer-type">Seconds</span>
-                    </h5>
-                </div>
-            </div>
-        </div>
+<!-- Section: count-down -->
+<section id="count-down" class="section teal orange-text center">
+  <div class="container"
+    x-data="timer()"
+    x-init="countdown()" >
+    <div class="row">
+      <div class="col m12 center">
+        <h2>Count down to the race . . .</h2>
+      </div>
+      <div class="col m5 right-align">
+        <h3>
+          <span class="timer-count" x-text="days"></span>
+          <span class="timer-type">days</span>
+        </h3>
+      </div>
+      <div class="col m6 left-align">
+        <h3>
+          <span class="timer-count" x-text="hours"></span>
+          <span class="timer-type">:</span>
+          <span class="timer-count" x-text="minutes"></span>
+          <span class="timer-type">:</span>
+          <span class="timer-count" x-text="seconds"></span>
+          <span class="timer-type">hours</span>
+        </h3>
+      </div>
     </div>
-    <img class="responsive-img" src="assets/img/Enduro-2023.jpg" alt="">
+  </div>
 </section>
 
