@@ -1,5 +1,5 @@
 // Set the date we're counting down to
-var countDownDate = new Date("Aug 26, 2023 07:59:59 GMT+0700").getTime();
+var countDownDate = new Date("Nov 11, 2023 07:59:59 GMT+0700").getTime();
 
 function addZero(num){
    if (num < 10){
@@ -20,7 +20,7 @@ var x = setInterval(function() {
   var distance = countDownDate - now;
     
   // Time calculations for days, hours, minutes and seconds
-  var days    = addZero(Math.floor(distance / (1000 * 60 * 60 * 24)));
+  var days    = Math.floor(distance / (1000 * 60 * 60 * 24));
   var hours   = addZero(Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60)));
   var minutes = addZero(Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60)));
   var seconds = addZero(Math.floor((distance % (1000 * 60)) / 1000));
