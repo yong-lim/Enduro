@@ -7,10 +7,17 @@
     
    {% include banner.html %}
    {{ content }}
-   {% include fees.html %}
-   {% include waiver.html %}
-   {% include pay.html %}
+   
+   {% if page.form_closed %}
+     {% include countdown-sm.html %}
+   {% else %}
+     {% include form.html %}
+     {% include fees.html %}
+     {% include waiver.html %}
+     {% include pay.html %}
+   {% endif %}
 
    {% include footer.html %}
+
    </body>
 </html>
