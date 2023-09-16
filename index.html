@@ -1,18 +1,12 @@
 ---
 layout: base
-form_title : <h4>Registration Form</h4>
+form_title : <h4>Online Registration Form</h4>
 location   : "Location: Phnum Basseth, Kingdom of Cambodia"
 dates      : "Enduro Race November 11-12, 2023"
 
-form_closed: Online Registration is Close
+form_closed: Online Registration is Closed
 #on_site_reg: Please register at the race site
 ---
 
 {% include title.html %}
-
-{% if page.form_closed %}
-  {% include countdown-sm.html %}
-{% else %}
-  {% include form.html %}
-{% endif %}
 
