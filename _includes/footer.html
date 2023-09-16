@@ -1,9 +1,9 @@
 <!-- Section: footer -->
-<footer id="footer" class="section teal white-text center">
-   <h4>
-      {{ page.dates }}
+<footer id="footer" class="section teal lighten-2 white-text center">
+   {% if page.form_closed == nill %}
+      <h4>{{ page.dates }}</h4>
+   {% endif %}
       <!-- <a href="#home" class="white-text">{{ site.title }}</a> -->
-   </h4>
    <br>
 </footer>  
 
